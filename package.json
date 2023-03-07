@@ -4,10 +4,10 @@
   "description": "",
   "private": true,
   "scripts": {
+    "start": "NODE_ENV=production node server.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "watch": "webpack --watch",
-    "build": "npx webpack --config webpack.config.js",
-    "server": "node server.js"
+    "build": "npx webpack --config webpack.config.js"
   },
   "author": "",
   "license": "ISC",
